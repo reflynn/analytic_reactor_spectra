@@ -13,6 +13,7 @@
 # CURRENTLY THESE METHODS RETURN 1.0e-9, AND SERVE ONLY AS PLACEHOLDERS
 
 import numpy as np
+import ab_initio_spectra.fermi_function as fermi_function
 
 def nuFlux(power, distance):
 	'''
