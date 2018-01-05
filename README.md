@@ -15,9 +15,9 @@ The Mueller 2011 paper walks through the ab initio calculation in detail. We hav
 
 Creates a plot with the interpolated neutrino spectrum from the Mueller and Huber papers, and with the analytically calculated ab initio spectrum. --lower-bound and --upper-bound give the bounds for the plot in keV. --interpolated and --ab-initio take a boolean argument to specify whether the spectrum should be plotted.
 
-- python python_scripts/plot_dc_cenns_rate.py lower_bound upper_bound targets
+- python python_scripts/plot_dc_cenns_rate.py 
 
-Creates a plot of the resulting cenns rate. lower and upper bound are in keV, and possible targets are Zn and Ge
+Creates a plot of the resulting cenns rate. lower and upper bound are in keV.
 
 # Code Organization
 
